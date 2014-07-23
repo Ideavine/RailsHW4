@@ -1,0 +1,4 @@
+<% @user.fname %> | <%=
+	link_to "delete", user_path(@user.id), method: :delete %>
+
+<%= User.find(@id).fname %>

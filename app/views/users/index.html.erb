@@ -1,0 +1,8 @@
+<!-- index.html.erb view -->
+	<!-- this posts each of the users first name once -->
+	<% @users.each do |u| %>
+		<%= u.fname %>
+	<% end %>
+
+	<%=yield %>
+
